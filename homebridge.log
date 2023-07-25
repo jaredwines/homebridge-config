@@ -1000,3 +1000,129 @@ Enter this code with your HomeKit app on your iOS device to pair with Homebridge
 [0;37m[7/25/2023, 12:30:01 AM] [0m[0;36m[Homebridge UI][0m [jared] Accessory layout changes saved.
 [0;37m[7/25/2023, 12:30:08 AM] [0m[0;36m[Homebridge UI][0m [jared] Accessory layout changes saved.
 [0;37m[7/25/2023, 12:30:11 AM] [0m[0;36m[Homebridge UI][0m [jared] Accessory layout changes saved.
+[0;37m[7/25/2023, 12:38:38 AM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[7/25/2023, 12:38:38 AM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[7/25/2023, 12:38:38 AM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[7/25/2023, 12:38:38 AM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[7/25/2023, 12:38:43 AM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[7/25/2023, 12:38:48 AM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[7/25/2023, 12:38:48 AM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[7/25/2023, 12:38:48 AM][0m [36m[HB Supervisor][0m Started Homebridge v1.6.1 with PID: 1092
+[37m[7/25/2023, 12:38:48 AM] [39mLoaded config.json with 0 accessories and 3 platforms.
+[37m[7/25/2023, 12:38:48 AM] [39mLoaded 11 cached accessories from cachedAccessories.
+[37m[7/25/2023, 12:38:48 AM] [39m---
+[37m[7/25/2023, 12:38:48 AM] [39mLoaded plugin: homebridge-dreo2@3.9.2
+[37m[7/25/2023, 12:38:48 AM] [39mRegistering platform 'homebridge-dreo2.DreoPlatform2'
+[37m[7/25/2023, 12:38:48 AM] [39m---
+[37m[7/25/2023, 12:38:48 AM] [39mLoaded plugin: homebridge-tplink-smarthome@7.0.1
+[37m[7/25/2023, 12:38:48 AM] [39mRegistering platform 'homebridge-tplink-smarthome.TplinkSmarthome'
+[37m[7/25/2023, 12:38:48 AM] [39m---
+[37m[7/25/2023, 12:38:48 AM] [39mLoading 3 platforms...
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[Dreo Platform][39m Initializing DreoPlatform2 platform...
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Initializing TplinkSmarthome platform...
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m homebridge-tplink-smarthome v7.0.1, node v18.16.0, homebridge v1.6.1, api v2.7
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[Dreo Platform][39m Loading accessory from cache: Bedroom Fan
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[Dreo Platform][39m Loading accessory from cache: Living Room Fan
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Light] UUID: f0175a47-d303-4e1e-a5a5-56a146d31b10 deviceId: 800652ED2CB8AF043A16557651384F1120F2FCEA 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Back Living Room Light] UUID: 89a20afc-b7b7-4b87-94f3-fc71bff5025c deviceId: 8006FCE2DC546C9A9506C72D79CAF304211A0643 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Kitchen Light] UUID: 2c4ba21a-b3ed-4847-9e25-7a697d46c169 deviceId: 8006B9D34E86A494470A87D0A72032571D47FE7E 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Kitchen Fan Light] UUID: 1e30cc0f-8a7a-45d8-8e12-9822f12b913a deviceId: 80066B4CD4B07288D7EAE0355792D2051D47DA76 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Closet Light] UUID: ae7db247-a038-45d8-b78a-0f5fa4652b95 deviceId: 800643D53D7EFC1E301F8120A8A0061F1D473D9E 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Lamp Light] UUID: 457c647b-01ad-4f3b-9b74-875e88b7ba41 deviceId: 80060FBBD1FBCC5C4A10FE5A639797FD211BA74C 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Front Living Room Light] UUID: 843f98cd-50d9-4b9d-87a4-fb6b0734729f deviceId: 80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Fan Light] UUID: 507c4c1f-23c2-41ff-a0b3-e7e2e8405557 deviceId: 8006EB04A04C1FD3B20C065453D51C5F20F2F6ED 
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bedroom Light] UUID: 339cf30a-3954-4954-ad0f-481a248f6cec deviceId: 8006E677C8446DA52D7F934E3D3D7EEC2115EC14 
+Setup Payload:
+X-HM://0023TXEISH4ZO
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 218-27-780 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[7/25/2023, 12:38:48 AM] [39mHomebridge v1.6.1 (HAP v0.11.1) (Homebridge 79D7) is running on port 51366.
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Kitchen Fan Light] plug [80066B4CD4B07288D7EAE0355792D2051D47DA76] 192.168.0.237 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Kitchen Fan Light] plug [80066B4CD4B07288D7EAE0355792D2051D47DA76]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Kitchen Light] plug [8006B9D34E86A494470A87D0A72032571D47FE7E] 192.168.0.8 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Kitchen Light] plug [8006B9D34E86A494470A87D0A72032571D47FE7E]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Back Living Room Light] plug [8006FCE2DC546C9A9506C72D79CAF304211A0643] 192.168.0.98 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Back Living Room Light] plug [8006FCE2DC546C9A9506C72D79CAF304211A0643]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Front Living Room Light] plug [80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C] 192.168.0.200 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Front Living Room Light] plug [80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Closet Light] plug [800643D53D7EFC1E301F8120A8A0061F1D473D9E] 192.168.0.110 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Closet Light] plug [800643D53D7EFC1E301F8120A8A0061F1D473D9E]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Lamp Light] plug [80060FBBD1FBCC5C4A10FE5A639797FD211BA74C] 192.168.0.87 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Lamp Light] plug [80060FBBD1FBCC5C4A10FE5A639797FD211BA74C]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Light] plug [800652ED2CB8AF043A16557651384F1120F2FCEA] 192.168.0.112 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Light] plug [800652ED2CB8AF043A16557651384F1120F2FCEA]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bedroom Light] plug [8006E677C8446DA52D7F934E3D3D7EEC2115EC14] 192.168.0.20 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bedroom Light] plug [8006E677C8446DA52D7F934E3D3D7EEC2115EC14]
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Fan Light] plug [8006EB04A04C1FD3B20C065453D51C5F20F2F6ED] 192.168.0.177 9999
+[37m[7/25/2023, 12:38:48 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Fan Light] plug [8006EB04A04C1FD3B20C065453D51C5F20F2F6ED]
+[37m[7/25/2023, 12:38:49 AM] [39m[36m[Dreo Platform][39m Country: US
+[37m[7/25/2023, 12:38:49 AM] [39m[36m[Dreo Platform][39m Region: NA
+[37m[7/25/2023, 12:38:50 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Bedroom Fan
+[37m[7/25/2023, 12:38:50 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Living Room Fan
+[0;37m[7/25/2023, 12:41:01 AM] [0m[0;36m[Homebridge UI][0m Homebridge restart request received
+[0;37m[7/25/2023, 12:41:01 AM] [0m[0;36m[Homebridge UI][0m UI / Bridge settings have not changed; only restarting Homebridge process
+[0;37m[7/25/2023, 12:41:01 AM] [0m[0;36m[Homebridge UI][0m Sending SIGTERM to Homebridge
+[37m[7/25/2023, 12:41:01 AM] [39mGot SIGTERM, shutting down Homebridge...
+[37m[7/25/2023, 12:41:06 AM][0m [36m[HB Supervisor][0m Homebridge Process Ended. Code: 143, Signal: null
+[37m[7/25/2023, 12:41:11 AM][0m [36m[HB Supervisor][0m Restarting Homebridge...
+[37m[7/25/2023, 12:41:11 AM][0m [36m[HB Supervisor][0m Starting Homebridge with extra flags: -I -P /var/lib/homebridge/node_modules --strict-plugin-resolution
+[37m[7/25/2023, 12:41:11 AM][0m [36m[HB Supervisor][0m Started Homebridge v1.6.1 with PID: 1304
+[37m[7/25/2023, 12:41:11 AM] [39mLoaded config.json with 0 accessories and 3 platforms.
+[37m[7/25/2023, 12:41:11 AM] [39mLoaded 11 cached accessories from cachedAccessories.
+[37m[7/25/2023, 12:41:11 AM] [39m---
+[37m[7/25/2023, 12:41:11 AM] [39mLoaded plugin: homebridge-dreo2@3.9.2
+[37m[7/25/2023, 12:41:11 AM] [39mRegistering platform 'homebridge-dreo2.DreoPlatform2'
+[37m[7/25/2023, 12:41:11 AM] [39m---
+[37m[7/25/2023, 12:41:11 AM] [39mLoaded plugin: homebridge-tplink-smarthome@7.0.1
+[37m[7/25/2023, 12:41:11 AM] [39mRegistering platform 'homebridge-tplink-smarthome.TplinkSmarthome'
+[37m[7/25/2023, 12:41:11 AM] [39m---
+[37m[7/25/2023, 12:41:11 AM] [39mLoading 3 platforms...
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[Dreo Platform][39m Initializing DreoPlatform2 platform...
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Initializing TplinkSmarthome platform...
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m homebridge-tplink-smarthome v7.0.1, node v18.16.0, homebridge v1.6.1, api v2.7
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[Dreo Platform][39m Loading accessory from cache: Bedroom Fan
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[Dreo Platform][39m Loading accessory from cache: Living Room Fan
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Light] UUID: f0175a47-d303-4e1e-a5a5-56a146d31b10 deviceId: 800652ED2CB8AF043A16557651384F1120F2FCEA 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Back Living Room Light] UUID: 89a20afc-b7b7-4b87-94f3-fc71bff5025c deviceId: 8006FCE2DC546C9A9506C72D79CAF304211A0643 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Kitchen Light] UUID: 2c4ba21a-b3ed-4847-9e25-7a697d46c169 deviceId: 8006B9D34E86A494470A87D0A72032571D47FE7E 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Kitchen Fan Light] UUID: 1e30cc0f-8a7a-45d8-8e12-9822f12b913a deviceId: 80066B4CD4B07288D7EAE0355792D2051D47DA76 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Closet Light] UUID: ae7db247-a038-45d8-b78a-0f5fa4652b95 deviceId: 800643D53D7EFC1E301F8120A8A0061F1D473D9E 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Lamp Light] UUID: 457c647b-01ad-4f3b-9b74-875e88b7ba41 deviceId: 80060FBBD1FBCC5C4A10FE5A639797FD211BA74C 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Front Living Room Light] UUID: 843f98cd-50d9-4b9d-87a4-fb6b0734729f deviceId: 80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bathroom Fan Light] UUID: 507c4c1f-23c2-41ff-a0b3-e7e2e8405557 deviceId: 8006EB04A04C1FD3B20C065453D51C5F20F2F6ED 
+[37m[7/25/2023, 12:41:11 AM] [39m[36m[TplinkSmarthome][39m Configuring cached accessory: [Bedroom Light] UUID: 339cf30a-3954-4954-ad0f-481a248f6cec deviceId: 8006E677C8446DA52D7F934E3D3D7EEC2115EC14 
+Setup Payload:
+X-HM://0023TXEISH4ZO
+Enter this code with your HomeKit app on your iOS device to pair with Homebridge:
+[30m[47m                       [49m[39m
+[30m[47m    ┌────────────┐     [49m[39m
+[30m[47m    │ 218-27-780 │     [49m[39m
+[30m[47m    └────────────┘     [49m[39m
+[30m[47m                       [49m[39m
+[37m[7/25/2023, 12:41:12 AM] [39mHomebridge v1.6.1 (HAP v0.11.1) (Homebridge 79D7) is running on port 51366.
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Kitchen Fan Light] plug [80066B4CD4B07288D7EAE0355792D2051D47DA76] 192.168.0.237 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Kitchen Fan Light] plug [80066B4CD4B07288D7EAE0355792D2051D47DA76]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Kitchen Light] plug [8006B9D34E86A494470A87D0A72032571D47FE7E] 192.168.0.8 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Kitchen Light] plug [8006B9D34E86A494470A87D0A72032571D47FE7E]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Light] plug [800652ED2CB8AF043A16557651384F1120F2FCEA] 192.168.0.112 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Light] plug [800652ED2CB8AF043A16557651384F1120F2FCEA]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Lamp Light] plug [80060FBBD1FBCC5C4A10FE5A639797FD211BA74C] 192.168.0.87 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Lamp Light] plug [80060FBBD1FBCC5C4A10FE5A639797FD211BA74C]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bathroom Fan Light] plug [8006EB04A04C1FD3B20C065453D51C5F20F2F6ED] 192.168.0.177 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bathroom Fan Light] plug [8006EB04A04C1FD3B20C065453D51C5F20F2F6ED]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Back Living Room Light] plug [8006FCE2DC546C9A9506C72D79CAF304211A0643] 192.168.0.98 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Back Living Room Light] plug [8006FCE2DC546C9A9506C72D79CAF304211A0643]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Closet Light] plug [800643D53D7EFC1E301F8120A8A0061F1D473D9E] 192.168.0.110 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Closet Light] plug [800643D53D7EFC1E301F8120A8A0061F1D473D9E]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Front Living Room Light] plug [80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C] 192.168.0.200 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Front Living Room Light] plug [80068FEF48F7ECD84F655DCCA7DB2C3D21158E4C]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Device First Online: [Bedroom Light] plug [8006E677C8446DA52D7F934E3D3D7EEC2115EC14] 192.168.0.20 9999
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[TplinkSmarthome][39m Adding: [Bedroom Light] plug [8006E677C8446DA52D7F934E3D3D7EEC2115EC14]
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[Dreo Platform][39m Country: US
+[37m[7/25/2023, 12:41:12 AM] [39m[36m[Dreo Platform][39m Region: NA
+[37m[7/25/2023, 12:41:13 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Bedroom Fan
+[37m[7/25/2023, 12:41:13 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Living Room Fan
