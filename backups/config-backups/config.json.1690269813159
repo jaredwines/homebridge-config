@@ -14,24 +14,21 @@
             "platform": "config"
         },
         {
-            "options": {
-                "email": "jwines760@gmail.com",
-                "password": "Powell123"
-            },
-            "name": "Dreo Platform",
-            "platform": "DreoPlatform2"
-        },
-        {
             "name": "TplinkSmarthome",
             "addCustomCharacteristics": true,
             "deviceTypes": [
                 "plug",
                 "bulb"
             ],
-            "excludeMacAddresses": [
-                "48:22:54:a0:18:98"
-            ],
             "platform": "TplinkSmarthome"
+        },
+        {
+            "options": {
+                "email": "jwines760@gmail.com",
+                "password": "Powell123"
+            },
+            "name": "Dreo Platform",
+            "platform": "DreoPlatform2"
         }
     ]
 }

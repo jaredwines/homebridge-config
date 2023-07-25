@@ -20,18 +20,6 @@
             },
             "name": "Dreo Platform",
             "platform": "DreoPlatform2"
-        },
-        {
-            "name": "TplinkSmarthome",
-            "addCustomCharacteristics": true,
-            "deviceTypes": [
-                "plug",
-                "bulb"
-            ],
-            "excludeMacAddresses": [
-                "48:22:54:a0:18:98"
-            ],
-            "platform": "TplinkSmarthome"
         }
     ]
 }
