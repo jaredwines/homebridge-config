@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "homebridge": "1.6.1",
+    "homebridge-dreo2": "^3.9.2",
+    "homebridge-tplink-smarthome": "7.0.1"
+  }
+}
