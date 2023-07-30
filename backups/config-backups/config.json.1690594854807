@@ -11,10 +11,6 @@
         {
             "name": "Config",
             "port": 8581,
-            "auth": "form",
-            "theme": "auto",
-            "tempUnits": "f",
-            "lang": "auto",
             "platform": "config"
         },
         {
@@ -36,6 +32,29 @@
                 "48:22:54:a0:18:98"
             ],
             "platform": "TplinkSmarthome"
+        },
+        {
+            "name": "iRobot",
+            "email": "jwines760@gmail.com",
+            "password": "Powell123",
+            "roombas": [
+                {
+                    "autoConfig": true,
+                    "info": {
+                        "ver": 2
+                    }
+                }
+            ],
+            "manualDiscovery": false,
+            "lowBattery": 20,
+            "offAction": "pause:dock",
+            "status": "cycle:clean",
+            "eveStatus": "inverted:cycle:clean",
+            "bin": "filter:contact",
+            "ignoreMultiRoomBin": true,
+            "hideStuckSensor": false,
+            "disableMultiRoom": false,
+            "platform": "iRobotPlatform"
         }
     ]
 }

@@ -11,10 +11,6 @@
         {
             "name": "Config",
             "port": 8581,
-            "auth": "form",
-            "theme": "auto",
-            "tempUnits": "f",
-            "lang": "auto",
             "platform": "config"
         },
         {

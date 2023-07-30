@@ -36,6 +36,33 @@
                 "48:22:54:a0:18:98"
             ],
             "platform": "TplinkSmarthome"
+        },
+        {
+            "name": "iRobot",
+            "email": "jwines760@gmail.com",
+            "password": "Powell123",
+            "roombas": [
+                {
+                    "autoConfig": true,
+                    "info": {
+                        "ver": 2
+                    }
+                }
+            ],
+            "manualDiscovery": false,
+            "lowBattery": 20,
+            "offAction": "pause:dock",
+            "status": "cycle:clean",
+            "eveStatus": "inverted:cycle:clean",
+            "bin": "filter:contact",
+            "ignoreMultiRoomBin": true,
+            "hideStuckSensor": false,
+            "disableMultiRoom": false,
+            "_bridge": {
+                "username": "0E:A2:8E:D6:A7:CD",
+                "port": 58862
+            },
+            "platform": "iRobotPlatform"
         }
     ]
 }
