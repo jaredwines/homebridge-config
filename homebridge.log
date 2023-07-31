@@ -1126,3 +1126,7 @@ Enter this code with your HomeKit app on your iOS device to pair with Homebridge
 [37m[7/25/2023, 12:41:12 AM] [39m[36m[Dreo Platform][39m Region: NA
 [37m[7/25/2023, 12:41:13 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Bedroom Fan
 [37m[7/25/2023, 12:41:13 AM] [39m[36m[Dreo Platform][39m Restoring existing accessory from cache: Living Room Fan
+[0;37m[7/25/2023, 1:03:45 AM] [0m[0;36m[Homebridge UI][0m Running scheduled instance backup...
+[0;37m[7/25/2023, 1:03:45 AM] [0m[0;36m[Homebridge UI][0m Creating temporary backup archive at /tmp/homebridge-backup-Z0olNB/homebridge-backup-0E55D5A579D7.tar.gz
+[0;37m[7/25/2023, 1:10:04 AM] [0m[0;36m[Homebridge UI][0m Running job to cleanup config.json backup files older than 60 days...
+[0;37m[7/25/2023, 5:21:13 AM] [0m[0;36m[Homebridge UI][0m [homebridge] Failed to check registry.npmjs.org for updates: "timeout of 10000ms exceeded" - see https://homebridge.io/w/JJSz6 for help.
