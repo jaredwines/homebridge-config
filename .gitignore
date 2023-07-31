@@ -1,0 +1,37 @@
+# Java
+*.class
+
+# Intellij project files
+**/.idea
+**/.done
+**/out
+**/gen
+*.iml
+.idea
+
+# Eclipse project files
+**/.settings
+.project
+.classpath
+
+# Maven
+**/log
+**/target
+dependency-reduced-pom.xml
+
+# Mac
+.DS_Store
+.DS_Store?
+._*
+.Trashes
+Thumbs.db
+
+# Common
+*~
+__pycache__
+
+accessories
+backups
+node_modules
+persist
+startup.sh
